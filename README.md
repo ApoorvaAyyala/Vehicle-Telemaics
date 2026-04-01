@@ -38,15 +38,15 @@ The system effectively distinguishes between baseline driving and high-variance 
 ![Traning vs Validation Curve](Training_vs_validation_curve.png)
 
 
-#### 2. Baseline: Normal Driving
+### 2. Baseline: Normal Driving
 The plot below shows how the system correctly identifies stable inertial inputs as "Normal Driving," even with minor sensor jitter.
 ![Normal Driving Profile](Normal_Driving.png)
 
-#### 3. Aggressive Maneuver: Hard Braking
+### 3. Aggressive Maneuver: Hard Braking
 The model accurately captures the signature of a hard brake (significant negative G-force) and flags it as an aggressive event while ignoring transient noise.
 ![Aggressive Maneuver Profile](Aggressive_maneuver.png)
 
-#### 4. Performance Table
+### 4. Performance Table
 
 | Metric | Value |
 | :--- | :--- |
