@@ -35,9 +35,10 @@ The kinematic classifications are translated into a **0–100 Safety Score**. Th
 The system effectively distinguishes between baseline driving and high-variance aggressive maneuvers.
 ![Normal Driving Profile](Classification_Performance.png)
 
+
 #### Baseline: Normal Driving
 The plot below shows how the system correctly identifies stable inertial inputs as "Normal Driving," even with minor sensor jitter.
-![Normal Driving Profile](Normal_Driving_Classification.png)
+![Normal Driving Profile](Baseline inertial inputs correctly classified as Normal Driving.png)
 
 #### Aggressive Maneuver: Hard Braking
 The model accurately captures the signature of a hard brake (significant negative G-force) and flags it as an aggressive event while ignoring transient noise.
